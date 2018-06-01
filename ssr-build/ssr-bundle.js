@@ -3504,7 +3504,8 @@ var map_Map = function (_Component) {
 						var mapOptions = {
 							center: new google.maps.LatLng(21.597, 39.144),
 							zoom: 8,
-							styles: mapStyle
+							styles: mapStyle,
+							fullscreenControl: false
 						};
 						_this.map = new google.maps.Map(el, mapOptions);
 						google.maps.event.addListener(_this.map, 'idle', _this.showMarkers);
