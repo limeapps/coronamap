@@ -1,11 +1,11 @@
 {
-  "name": "preact-app",
-  "short_name": "preact-app",
+  "name": "Corona map",
+  "short_name": "Corona-map",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#2fae98",
   "icons": [
     {
       "src": "/assets/icon.png",
